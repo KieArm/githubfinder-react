@@ -1,22 +1,33 @@
 function About() {
   return (
     <div>
-      <h1 className='text-6xl mb-4'>Github Finder</h1>
-      <p className='mb-4 text-2xl font-light'>
-        React app to search GitHub profiles and view the details. This project is part of the
-        <a href='https://www.udemy.com/course/modern-react-front-to-back/'> React Front To Back</a> Udemy course by
-        <strong>
-          <a href='https://traversymedia.com'> Brad Traversy</a>
-        </strong>
-        .
+      <h1 className='text-4xl mb-8'>Github Finder - React</h1>
+      <p className='mb-2'>
+        This SPA allows the user to search GitHub profiles, view details and explore reposoitories.
       </p>
-      <p className='text-lg text-gray-400'>
-        Version <span className='text-white'>1.0.1</span>
+      <p className='mb-2'>
+        Built with React v18, React Router and Axios. Styled with TailwindCSS and DaisyUI.
       </p>
-      <p className='text-lg text-gray-400'>
-        Layout By:&nbsp;
-        <a className='text-white' href='https://github.com/KieArm'>
-          Kieran Armbrecht
+      <p className='mt-8'>
+        Version: <span className='text-secondary'>1.1.0</span>
+      </p>
+      <p className='mt-2'>
+        Updated: <span className='text-secondary'>12th May 2022</span>
+      </p>
+      <p className='mt-2'>
+        By: <span className='text-secondary'>Kieran Armbrecht</span>
+      </p>
+      <p className='mt-4'>
+        <a className='text-primary' target='_blank' rel='noreferrer' href='https://kierana.dev'>
+          Portfolio
+        </a>
+        <a
+          className='text-primary mx-8'
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/KieArm'
+        >
+          GitHub
         </a>
       </p>
     </div>
