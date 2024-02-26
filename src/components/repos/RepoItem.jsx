@@ -1,5 +1,5 @@
 import { FaEye, FaInfo, FaLink, FaStar, FaUtensils } from 'react-icons/fa'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 function RepoItem({ repo }) {
   const { name, description, html_url, forks, open_issues, watchers_count, stargazers_count } = repo
@@ -32,8 +32,8 @@ function RepoItem({ repo }) {
   )
 }
 
-RepoItem.propTypes = {
-  repo: PropTypes.object.isRequired,
-}
+// RepoItem.propTypes = {
+//   repo: PropTypes.object.isRequired,
+// }
 
 export default RepoItem

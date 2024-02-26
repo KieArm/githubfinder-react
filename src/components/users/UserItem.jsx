@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
 function UserItem({ user: { login, avatar_url } }) {
@@ -23,8 +23,8 @@ function UserItem({ user: { login, avatar_url } }) {
   )
 }
 
-UserItem.propTypes = {
-  user: PropTypes.object.isRequired,
-}
+// UserItem.propTypes = {
+//   user: PropTypes.object.isRequired,
+// }
 
 export default UserItem
